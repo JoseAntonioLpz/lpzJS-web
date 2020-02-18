@@ -2,7 +2,7 @@
 	//$('#nav2').hide();
 	$(window).on('scroll', function(){
 		var nav = $('#nav');
-		if($(window).scrollTop() > $(".head").height() - 50){
+		if($(window).scrollTop() > $(".head").height() - 75){
 			//$('#nav').hide(400);
 			//$('#nav2').show(400);
 			nav.css("border-bottom", "1px solid black");
